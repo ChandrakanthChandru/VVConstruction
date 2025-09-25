@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VV Constructon & Interior Design</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div class="all">
+        <h1>VV Construction & Interior Design</h1>
+    <h3>Request a free project consultation</h3>
+    <form action="" method="get" autocomplete="off">
+        <label for="fname">Full Name</label>
+        <input type="text" name="FullName" id="fname" required  placeholder="Enter Your Name"> 
+        <label for="email">Email</label>
+        <input type="email" name="Email" id="email" required placeholder="Enter Your Mail ID">
+        <label for="phone">Contact</label>
+        <input type="tel" name="Contact" id="phone" required placeholder="Enter Phone Number"  minlength="10" maxlength="10">
+        <label for="ptype">What Type Of Project You Are Intrested In</label>
+        <select name="Project Type" id="select" required>
+            <option value="">Select Your Project Type</option>
+            <option value="New Home Construction">New Home Construction</option>
+            <option value="Residental Remodel">Residental Remodel</option>
+            <option value="Commercial Project">Commercial Project</option>
+            <option value="Renovation/Addition">Renovation/Addition</option>
+            <option value="Design Consultation">Design Consultation</option>
+            <option value="Other's">Other's</option>
+        </select>
+        <button id="save" type="submit">Save</button>
+        <button id="skip" type="button"><a href="./vv.html" target="_blank">Skip</a></button>
+    </form>
+    <article>
+        <footer><q>we are not just architects of buildings,but of the future.Our dream house will be tesatment to innovation <b>and</b> sustainable design</q></footer>
+    </article>
+    </div>
+    <script>
+        let save=document.getElementById("save")
+        save.addEventListener("click",()=>{
+            window.location.href="C:\Users\Arish\OneDrive\Desktop\VVConstructions\vv\vv.html"
+        })
+    </script>
+</body>
+</html>
