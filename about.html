@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./about.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Playwrite+ES:wght@100..400&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Permanent+Marker&family=Playwrite+ES:wght@100..400&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Permanent+Marker&family=Playwrite+ES:wght@100..400&family=Rubik+Mono+One&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Permanent+Marker&family=Playwrite+ES:wght@100..400&family=Rubik+Mono+One&family=Tagesschrift&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Paytone+One&family=Permanent+Marker&family=Playwrite+ES:wght@100..400&family=Rubik+Mono+One&family=Tagesschrift&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Paytone+One&family=Permanent+Marker&family=Playwrite+ES:wght@100..400&family=Rubik+Mono+One&family=Tagesschrift&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a id="name">VV Construction & Interior Design</a>
+        <a id="home" href="./vv.html">Home</a>
+        <a id="about" href="./about.html" target="_blank">About</a>
+        <a id="contact" href="./Contact.html" target="_blank">Contact</a>
+    </nav>
+    <div class="full">
+        <section class="vertical" id="v1">
+            <pre id="p1" style="margin-top: 20px; color: white; font-size: larger;">
+ COMPANY
+  OVERVIEW
+            </pre>
+            <p>It is a pleasure to introduce our organization, VV CONSTRUCCTION INTERIOR SPACE DESIGNER. We through this mail are looking for  a business association with you for the services we Offer We Can do All types of Building & Industrial Works. Building Doctor Specilized in Nitobond Forsec, Fabricate Steel Structures and All types of Metal
+            Fabrication like Railing, Industrial sheds, Gates, Staircase, Struc-tural Beams, Pressure Pipe Lines,Trolleys. Windows, Pipe Lines on Stainless Steel and Mild Steel etc...</p> 
+
+           <p style="margin-top: 10px;">We assure you of a quality platform to your project and help you to get more good looking, and timely service.</p> <br><br>
+ <pre id="p2">
+Concrete Repair,
+Grouts,
+WaterProofing,
+Joint Filters & Sealants,
+Industrial Flooring,
+Surface Coatings,
+Concrete Additives...
+
+</pre>
+        </section>
+        <section class="vertical" id="v2">
+            <div>
+                <h1 style="text-transform: uppercase;color: rgb(205, 45, 99);">Contact</h1>
+            <h4 id="ph" style="font-size: larger;">+91 9500758441</h4>
+            <a style="color: black; font-size: larger; font-weight: bolder;">vijaykumar86@gmail.com</a>
+            <h3 id="find">Join With Us</h3>
+            </div>
+        </section>
+         <section id="scanner">   
+                <img id="scanner" class="sc1" src="./images/WHATSsCANNER.jpg" alt="" title="">
+            </section>
+        <section class="vertical" id="v3">
+            <div class="background">
+                <img src="./images/logo.jpg" alt="" id="i1">
+            </div>
+            <div  id="card" class="visitingcard">
+                <h2 class="details"><div id="b0">VV</div><div id="b1">Construction &</div><br> <div id="b2">Interior </div> <div id="b3">Space Designer</div></h2>
+                <h3>All Type of Building & Industrial works</h3>
+            </div>
+        </section>
+    </div>
+    <script>
+        let home=document.getElementById("home")
+        let about=document.getElementById("about")
+        let contact=document.getElementById("contact")
+        // console.log(home);
+        
+        let f1=()=>{
+            home.style.border="2px solid white"
+            home.style.fontSize="15px"
+        }
+        let f2=()=>{
+            home.style.border="none"
+            home.style.fontSize="20px"
+        }
+        home.addEventListener("mouseover",f1)
+        home.addEventListener("mouseleave",f2)
+
+
+         let g1=()=>{
+            about.style.border="2px solid white"
+            about.style.fontSize="15px"
+        }
+        let g2=()=>{
+            about.style.border="none"
+            about.style.fontSize="20px"
+        }
+        about.addEventListener("mouseover",g1)
+        about.addEventListener("mouseleave",g2)
+
+
+         let h1=()=>{
+            contact.style.border="2px solid white"
+            contact.style.fontSize="15px"
+        }
+        let h2=()=>{
+            contact.style.border="none"
+            contact.style.fontSize="20px"
+        }
+        contact.addEventListener("mouseover",h1)
+        contact.addEventListener("mouseleave",h2)
+
+        let sc1=document.querySelector(".sc1")
+        sc1.setAttribute("title","Scann Me To Communicate")
+        
+
+    </script>
+</body>
+
+</html>

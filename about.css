@@ -1,0 +1,202 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Playwrite+ES:wght@100..400&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+        nav {
+            height: 40px;
+            display: flex;
+            width: 100%;
+            justify-content: end;
+            position: relative;
+            padding: 10px;
+            gap: 20px;
+            background-color: #2f2626;
+            color: white;
+            font-size: larger;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            /* color: blue; */
+            transition: ease-in 0.1s;
+            transform: scale(1.3);
+        }
+
+        #name {
+            position: absolute;
+            left: 5px;
+        }
+
+        #name:hover {
+            color: red;
+            transition: ease-in-out 1s;
+            transform: scale(1.1);
+            margin-left: 10px;
+        }
+
+        .vertical {
+            height: calc(100vh - 40px);
+            width: 33%;
+            border: 1px solid;
+        }
+
+        #v3 {
+            width: 34%;
+        }
+
+        .full {
+            display: flex;
+        }
+
+        .vertical {
+            padding: 10px;
+        }
+
+        #v1 {
+            background-color: black;
+            color: wheat;
+            border: 0px
+        }
+
+        #p1 {
+            font-family: "Zalando Sans Expanded", sans-serif;
+            font-weight: bolder;
+            font-family: "Rubik Mono One", monospace;
+
+        }
+
+        #p2 {
+            font-family: "Tagesschrift", system-ui;
+        }
+
+        p {
+            font-family: "Cormorant Garamond", serif;
+            color: white;
+            word-spacing: 5px;
+            line-height: 23px;
+            font-size: large;
+        }
+
+        .visitingcard>h2:nth-child(1) {
+            font-family: "Paytone One", sans-serif;
+        }
+
+        .vertical > div:nth-child(1) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            justify-content: flex-start;
+            margin-top: 130px;
+
+        }
+        .vertical div::selection{
+            background-color: wheat;
+            color: blue;
+        }
+
+        #find {
+            color: rgb(255, 251, 255);
+            text-align: center;
+            margin-top: 30px;
+            font-size: x-large;
+        }
+        .vertical {
+            position: relative;
+        }
+
+        #v3{
+            background-image: url(./images/text-tans.jpg);
+            background-position:center;
+        }
+
+        .visitingcard {
+            padding: 10px;
+            /* border: 1px solid; */
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            position: absolute;
+            bottom: 10px;
+            right: 60px;
+            align-items: start;
+            background-color: rgb(40, 76, 59);
+            box-shadow: 1px 2px 3px 2px inherit;
+            border-radius: 10px;
+            margin-bottom:100px;
+        }
+        .visitingcard:hover{
+            animation: scale 0.5s ease-in-out alternate infinite ;
+            box-shadow: 0px 0px 0px 4px rgb(37, 5, 5);
+            border: 2px solid white;
+            background:linear-gradient(to right , rgb(138, 59, 59),rgb(132, 36, 36), rgb(168, 7, 7));
+
+        }
+        @keyframes scale {
+            from{
+                transform: scale(1); 
+
+            }
+            to{
+                transform: scale(1.1); 
+            }
+        }
+        .background{
+            
+            /* background-image:url(./images/logo.jpg); */
+            /* background-color:red; */
+            height: 92vh;
+        }
+
+        #b1,
+        #b2,
+        #b3,
+        #b0 {
+            /* border: 1px solid; */
+            display: inline-block;
+            height: 30px;
+            background-image: url(./images/text-tans.jpg);
+            background-position: center;
+            object-fit: contain;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+        #b0 {
+
+            font-weight: 400;
+            font-style: italic;
+            margin-right: 4px;
+           text-decoration: wavy;
+        }
+        #i1{
+            background: transparent;
+            mix-blend-mode: lighten;
+            filter: invert();
+            position: absolute;
+            height: 300px;
+            top: 22px;
+            left: 4px;
+        }
+        #v2{
+            background-image: url(./images/head.jpg);
+        }
+        #scanner{
+            background:transparent;
+            position: absolute;
+            right: 44%;
+            top: 180px;
+            mix-blend-mode:lighten;
+            filter: invert(1);   
+            height: 200px;
+            border-radius: 15%;
+            width: auto;
+        }
