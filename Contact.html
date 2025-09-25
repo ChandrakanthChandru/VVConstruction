@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+     <nav>
+        <a id="name">VV Construction & Interior Design</a>
+        <a  id="home" href="./vv.html">Home</a>
+        <a id="about" href="./about.html" target="_blank">About</a>
+        <a id="contact" href="./Contact.html" target="_blank">Contact</a>
+    </nav>
+    <div class="cover">
+        <div class="part" id="part1">
+            <h1>LOCATION</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15516.06802254921!2d80.0717818!3d13.534547799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d778c22a87cd1%3A0xf5cc22603a89665b!2sArambakkam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1758689454585!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="part" id="part2">
+            <h2>Business Information</h2>
+             <h4 style="color: rgb(114, 9, 9);">Legal Name Of Business</h4>
+            <h3 style="color: rgb(3, 27, 18);">VV CONSTRUCTION & INTERIOR SPACE DESIGNER</h3><br>
+            <h2>Business Type</h2>
+            <h3 style="color: rgba(49, 43, 46, 0.927);">Private Company</h3><br>
+            <h2>Customer Care Information</h2>
+            <h2>Phone</h2>
+            <h3>+91 95007 58441</h3>
+            <h2>Mail Id</h2>
+            <h3><a href="">vijayakumarm86@gmail.com</a></h3> <br>
+            <h2>Grievance Officer Information</h2>
+            <center>
+            <div class="div3">
+            <h3>Name</h3>
+            <h4>VijayaKumar</h4>
+            <h3>Phone</h3>
+            <h4>+91 95007 58441</h4>
+            <h3>Mail Id</h3>
+            <h4>vijayakumarm86@gmail.com</h4> 
+            </div> 
+            </center>          
+        </div>
+        <div class="part" id="part3">
+             <img src="./images/text-tans.jpg" alt="" class="img" id="img1">
+            <img src="./images/head.jpg" alt="" class="img" id="img2">
+        </div>
+    </div>
+     <script>
+        let home=document.getElementById("home")
+        let about=document.getElementById("about")
+        let contact=document.getElementById("contact")
+        // console.log(home);
+        
+        let f1=()=>{
+            home.style.border="2px solid white"
+            home.style.fontSize="15px"
+        }
+        let f2=()=>{
+            home.style.border="none"
+            home.style.fontSize="20px"
+        }
+        home.addEventListener("mouseover",f1)
+        home.addEventListener("mouseleave",f2)
+
+
+         let g1=()=>{
+            about.style.border="2px solid white"
+            about.style.fontSize="15px"
+        }
+        let g2=()=>{
+            about.style.border="none"
+            about.style.fontSize="20px"
+        }
+        about.addEventListener("mouseover",g1)
+        about.addEventListener("mouseleave",g2)
+
+
+         let h1=()=>{
+            contact.style.border="2px solid white"
+            contact.style.fontSize="15px"
+        }
+        let h2=()=>{
+            contact.style.border="none"
+            contact.style.fontSize="20px"
+        }
+        contact.addEventListener("mouseover",h1)
+        contact.addEventListener("mouseleave",h2)
+
+
+    </script>
+</body>
+</html>
