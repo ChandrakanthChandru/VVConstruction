@@ -1,0 +1,139 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/1200x/22/90/f9/2290f9190b3ac2f967c777d9dd6c2d90.jpg");
+    background-position: center;
+    color: rgb(241, 236, 236);
+}
+
+.all {
+    margin-top: 20px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    /* transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+    */
+    color: white;
+
+    /* background-image: url(./images/head.jpg); */
+    /* object-fit: cover; */
+    /* background-position: top; */
+    font-size: 50px;
+} 
+h1:hover{
+    /* transform: scale(1.2); */
+    transform: translateY(-5px);
+    
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content; */
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px
+}
+
+label {
+    text-align: center;
+    font-size: larger;
+}
+label[for="ptype"]{
+    /* text-shadow: 1px 1px 2px white; */
+    margin-top: 25px;
+}
+input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: inherit;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 10px 2px rgb(120, 80, 80);
+}
+
+option {
+    background-color: inherit;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#select {
+    background-color: inherit;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid inherit;
+    box-shadow: 1px 1px 10px 2px black;
+    margin-top: 10px;
+}
+
+button{
+    background-color: inherit;
+    height: 30px;
+    width: 80px;
+    margin-right: 100px;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+button:hover{
+    transform: scale(0.9);
+    color: black;
+    font-size: larger;
+}
+::placeholder{
+    color: beige;
+}
+article{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+footer{
+    padding-top: 50px;
+    font-size:22px;
+}
+q{
+    color: rgb(245, 242, 242);
+    text-transform: capitalize;
+}
+b{
+    color: grey;
+}
+q:hover{
+    transition: ease-in-out 0.5s;
+    color:rgb(218, 21, 21);
+    font-weight: 400;
+}
+/* @media  screen and (min-width > 300px) and (min-width < 530px){ */
+@media screen and (min-width: 150px) and (max-width: 350px)
+{
+    .all > h1:nth-child(1){
+        color: rgb(219, 209, 219);
+        font-size: x-large;
+    }
+    
+}
